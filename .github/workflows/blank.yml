@@ -1,0 +1,55 @@
+# This is a basic workflow to help you get started with Actions
+
+from random import shuffle
+shuffle(example)
+def shuffle_list(mylist):
+    shuffle(mylist)
+    return mylist
+
+result = shuffle_list(example)
+result
+result
+[2, 6, 5, 7, 8, 3, 4, 0, 1, 9]
+mylist = ['','0','']
+shuffle_list(mylist)
+['0', '', '']
+guess
+def player_guess():
+    
+    guess=""
+    while guess not in ['0','1','2']:
+         guess = input("pick a no 0,1,2")
+            
+    return int(guess)
+myindex = player_guess()
+
+def check_guess(mylist,guess):
+    if mylist[guess] == "0":
+        print("correct!")
+    else:
+        print("wrong guess!")
+        print(mylist)
+        
+#intial list
+mylist = ["","0",""]
+#shuffle list
+mixedup_list = shuffle_list(mylist)
+# user guess
+guess = player_guess()
+
+# check guess
+
+check_guess(mixedup_list,guess)
+#intial list
+mylist = ["","0",""]
+#shuffle list
+mixedup_list = shuffle_list(mylist)
+# user guess
+guess = player_guess()
+
+# check guess
+
+check_guess(mixedup_list,guess)
+
+
+
