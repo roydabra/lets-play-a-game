@@ -6,9 +6,7 @@ def shuffle_list(mylist):
     return mylist
 
 result = shuffle_list(example)
-result
-result
-[2, 6, 5, 7, 8, 3, 4, 0, 1, 9]
+
 mylist = ['','0','']
 shuffle_list(mylist)
 ['0', '', '']
